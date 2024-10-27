@@ -1,0 +1,137 @@
+{
+  "source_base_path": "C:/Users/charliebottomley/Source/Repos/ase-demo-assignment-CharlieAIO/ASEAssignment/WindowsFormApp",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.AppCommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Canvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Canvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Form1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.CanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.CanvasTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.ProgramRunnerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.ProgramRunnerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
