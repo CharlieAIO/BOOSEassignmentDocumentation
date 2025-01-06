@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/charliebottomley/Source/Repos/ase-demo-assignment-CharlieAIO/ASEAssignment/WindowsFormApp",
+  "source_base_path": "C:/Users/charl/Source/Repos/ase-demo-assignment-CharlieAIO/ASEAssignment/WindowsFormApp",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -8,6 +8,36 @@
       "output": {
         ".html": {
           "relative_path": "docs/WindowsFormApp.AppCommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Array.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Array.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Boolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Boolean.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Call.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Call.html"
         }
       },
       "version": ""
@@ -24,10 +54,380 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.CanvasCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.CanvasCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Cast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Cast.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Circle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Circle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Class.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Class.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.ClassInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.ClassInstance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.CommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.CommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.CommandOneParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.CommandOneParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.CommandThreeParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.CommandThreeParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.CommandTwoParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.CommandTwoParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.CompoundCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.CompoundCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.ConditionalCommand.ConditionalTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.ConditionalCommand.ConditionalTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.ConditionalCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.ConditionalCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.DrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.DrawTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Else.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Else.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.End.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.End.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Evaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Evaluation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.For.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.For.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/WindowsFormApp.Form1.yml",
       "output": {
         ".html": {
           "relative_path": "docs/WindowsFormApp.Form1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.ICanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.ICanvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.ICommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.ICommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.ICommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.IParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.IParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.IStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.IStoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.If.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.If.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Int.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Int.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.InterpreterForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.InterpreterForm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Method.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Method.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.MoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.MoveTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Peek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Peek.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.ProgramRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.ProgramRunner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Real.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Real.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Rect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Rect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.StoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.StoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.Triangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.Triangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.While.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.While.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormApp.WriteText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormApp.WriteText.html"
         }
       },
       "version": ""
@@ -44,6 +444,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.ArrayTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.ArrayTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/WindowsFormAppTests.CanvasTests.yml",
       "output": {
         ".html": {
@@ -54,10 +464,180 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.CastTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.CastTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.CircleTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.CircleTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.ClassInstanceTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.ClassInstanceTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.ClassTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.ClassTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.CommandFactoryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.CommandFactoryTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.CompoundCommandTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.CompoundCommandTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.ConditionalCommandTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.ConditionalCommandTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.ElseTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.ElseTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.EndTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.EndTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.EvaluationTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.EvaluationTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.ForTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.ForTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.MethodTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.MethodTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.ParserTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.ParserTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/WindowsFormAppTests.ProgramRunnerTests.yml",
       "output": {
         ".html": {
           "relative_path": "docs/WindowsFormAppTests.ProgramRunnerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.RectTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.RectTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.StoredProgramTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.StoredProgramTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.TriangleTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.TriangleTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/WindowsFormAppTests.WriteTextTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/WindowsFormAppTests.WriteTextTests.html"
         }
       },
       "version": ""

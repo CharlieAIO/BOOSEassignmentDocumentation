@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -91,18 +91,210 @@
 Classes
 </h3>
     <dl class="jumplist">
-      <dt><a class="xref" href="WindowsFormApp.AppCommandFactory.html">AppCommandFactory</a></dt>
-      <dd></dd>
+      <dt><a class="xref" href="WindowsFormApp.Array.html">Array</a></dt>
+      <dd><p>An array command takes the form &quot;array int myArray 10,2&quot; or &quot;array real prices 10&quot; [array][(type)][(size)][(optional dimentions, 1 if not given)]</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Boolean.html">Boolean</a></dt>
+      <dd><p>Boolean datatype, also used for Conditional Commands.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Call.html">Call</a></dt>
+      <dd><p>Comand to call a previously defined method.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="WindowsFormApp.Canvas.html">Canvas</a></dt>
       <dd><p>Represents a canvas for drawing shapes, lines, and text.
-Implements the <span class="xref">BOOSE.ICanvas</span> interface.</p>
+Implements the <a class="xref" href="WindowsFormApp.ICanvas.html">ICanvas</a> interface.</p>
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="WindowsFormApp.Form1.html">Form1</a></dt>
+      <dt><a class="xref" href="WindowsFormApp.CanvasCommand.html">CanvasCommand</a></dt>
+      <dd><p>Derived class to add a drawing surface that implements the ICanvas interface.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Cast.html">Cast</a></dt>
+      <dd><p>Cast real values to int values.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Circle.html">Circle</a></dt>
+      <dd><p>Draw a circle round the current cursor position.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Class.html">Class</a></dt>
+      <dd><p>A class can be built using this command &quot;class [class name]&quot; and closed using &quot;end class&quot; any variables or methods can be contained between.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.ClassInstance.html">ClassInstance</a></dt>
+      <dd><p>An instance of any class can be created like so &quot;new [class name] [any instance name]&quot; e.g. &quot;new Animal bear&quot;</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Command.html">Command</a></dt>
+      <dd><p>Abstract class for commands with a parameter list or expression. This class will seperate the parameters or expression from the command and store in the &quot;ParameterList&quot;. The Command's Compile() method is called by the parser and this is expected to set the Command's parameters. CheckParameters</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.CommandFactory.html">CommandFactory</a></dt>
+      <dd><p>Creates commands when the command type is passed in.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.CommandOneParameter.html">CommandOneParameter</a></dt>
+      <dd><p>Commands with two parameters. Each command has an Xpos and Ypos that operates from the current cursor position.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.CommandThreeParameters.html">CommandThreeParameters</a></dt>
+      <dd><p>Commands with three parameters. Each command has an Xpos and Ypos that operates from the current cursor position.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.CommandTwoParameters.html">CommandTwoParameters</a></dt>
+      <dd><p>Commands with two parameters. Each command has an Xpos and Ypos that operates from the current cursor position.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.CompoundCommand.html">CompoundCommand</a></dt>
+      <dd><p>CompoundCommand is a building block for shared functionality between CompoundCommands, such as ELSE and ENDS</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.ConditionalCommand.html">ConditionalCommand</a></dt>
+      <dd><p>Extends Var because it has an expression, only this time it directly affects execution.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.DrawTo.html">DrawTo</a></dt>
+      <dd><p>Draw a line from to current cursor position to the provided x,y position.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Else.html">Else</a></dt>
+      <dd><p>An Else is like an Endif but it pops the corresponding If off the stack and pushes itself on so that it becomes the corresponding command to the end</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.End.html">End</a></dt>
+      <dd><p>End command for If/While/For/Method. BOOSE has only one End type command which has a parameter to say what it belongs so eg. &quot;end if&quot;. End checks Boose types for the ciorresponding command (If/While/For/Method) and will likely require a complete rewrite to replcae those commands. It would probbaly be easier to replace Parser, StoredProgram, CompoundCommand and this. Look at the metghods each provides, if you like, and try and fill in their fucntionality.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Evaluation.html">Evaluation</a></dt>
+      <dd><p>An evaluation encompasses all things that can have a value, such as variables, expressions and conditions used in loops and ifs.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.For.html">For</a></dt>
+      <dd><p>For command. Adds processing at compile() and execute() to process a for command.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.If.html">If</a></dt>
+      <dd><p>If command. Adds processing at compile() and execute() to process an if command.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Int.html">Int</a></dt>
+      <dd><p>Command Class to define and store integer values.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.InterpreterForm.html">InterpreterForm</a></dt>
       <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Method.html">Method</a></dt>
+      <dd><p>Method declaration command. Overcoming method restrictions will require a complete rewrite. It would be simpler to do this after Parser and StoredProgram. You are getting to the stage where you need to do a big rewrite.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.MoveTo.html">MoveTo</a></dt>
+      <dd><p>Set the cursor position, for subsequent drawing operations, to the provide x,y position.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Parser.html">Parser</a></dt>
+      <dd><p>The parser takes a program, who's lines are seperated by &quot;\n&quot;, and attempts to create a StoredProgram. Once the SToredProgram has been created it then can be run. As much processing that can be done is done here because it has no run penalty (other than starting the program). Command objects are created and their parameters processed as much as possible. Variables are checked for existance but expressions cannot be processed until runtime.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Peek.html">Peek</a></dt>
+      <dd><p>Peek an array, i.e. get the value of an array cell. [variable] = peek [array name] [row] [optional column]</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.ProgramRunner.html">ProgramRunner</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Real.html">Real</a></dt>
+      <dd><p>Class for a Real Number Variable.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Rect.html">Rect</a></dt>
+      <dd><p>Draw a rectangle of provided with and heigh with the current cursor position being the top left corner.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.StoredProgram.html">StoredProgram</a></dt>
+      <dd><p>A collection class for storing a program of Command objects, extends ArrayList to add a program counter and a flag to indicate that the syntax is ok and the program valid. Adds methods below to process variables and methods and implements flow of control for ifs and loops.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.Triangle.html">Triangle</a></dt>
+      <dd><p>Represents a triangle command that sets the width and height of a triangle to be drawn on a canvas.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.While.html">While</a></dt>
+      <dd><p>While command. So far blank as it doesn't do anything beyond ConditionalCommand but it makes the code clearer (in the factory).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.WriteText.html">WriteText</a></dt>
+      <dd><p>Represents a command to write text on a canvas.</p>
+</dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.ICanvas.html">ICanvas</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.ICommand.html">ICommand</a></dt>
+      <dd><p>Interface for new commands. Any new Command class should implement this interface and be generated by a CommandFactory that implements the ICommandFactory interface. Contains methods to set the Command up after its creation, manage its parameters when it is compiled and execute it when it is called.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.ICommandFactory.html">ICommandFactory</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.IParser.html">IParser</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.IStoredProgram.html">IStoredProgram</a></dt>
+      <dd></dd>
+    </dl>
+    <h3 id="enums">
+Enums
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WindowsFormApp.ConditionalCommand.ConditionalTypes.html">ConditionalCommand.ConditionalTypes</a></dt>
+      <dd><p>The different types of conditional commands: if/while/for</p>
+</dd>
     </dl>
 
 
