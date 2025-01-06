@@ -4,6 +4,636 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Array.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Array.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Boolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Boolean.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Call.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Call.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Canvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Canvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.CanvasCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.CanvasCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Cast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Cast.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Circle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Circle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Class.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Class.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.ClassInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.ClassInstance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.CommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.CommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.CommandOneParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.CommandOneParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.CommandThreeParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.CommandThreeParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.CommandTwoParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.CommandTwoParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.CompoundCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.CompoundCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.ConditionalCommand.ConditionalTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.ConditionalCommand.ConditionalTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.ConditionalCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.ConditionalCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.DrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.DrawTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Else.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Else.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.End.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.End.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Evaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Evaluation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.For.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.For.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.ICanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.ICanvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.ICommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.ICommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.ICommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.IParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.IParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.IStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.IStoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.If.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.If.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Int.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Int.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.InterpreterForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.InterpreterForm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Method.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Method.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.MoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.MoveTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Peek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Peek.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.ProgramRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.ProgramRunner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Real.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Real.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Rect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Rect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.StoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.StoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.Triangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.Triangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.While.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.While.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.WriteText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.WriteText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.ArrayTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.ArrayTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.CanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.CanvasTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.CastTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.CastTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.CircleTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.CircleTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.ClassInstanceTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.ClassInstanceTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.ClassTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.ClassTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.CommandFactoryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.CommandFactoryTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.CompoundCommandTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.CompoundCommandTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.ConditionalCommandTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.ConditionalCommandTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.ElseTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.ElseTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.EndTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.EndTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.EvaluationTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.EvaluationTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.ForTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.ForTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.MethodTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.MethodTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.ParserTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.ParserTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.ProgramRunnerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.ProgramRunnerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.RectTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.RectTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.StoredProgramTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.StoredProgramTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.TriangleTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.TriangleTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.WriteTextTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.WriteTextTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSECanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSECanvasTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/WindowsFormApp.AppCommandFactory.yml",
       "output": {
         ".html": {
